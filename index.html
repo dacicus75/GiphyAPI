@@ -1,0 +1,58 @@
+<!-- Cannot figure it out why is not working, wish I had 
+more time to spend on it.  Just have to move on to the
+next homework-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giphy API</title>
+  
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+    
+   <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<!--Header-->
+<div class="jumbotron">
+  <div class="container">
+        
+    <h1>Search for your favorite shows</h1>
+    <h4>Click on buttons to display Giphys<br>
+        Click the Giphys to play and pause<br>
+        Input your shows to add more buttons</h4>
+    </div>    
+</div>
+
+<div id = "giphyButtons" class="container">
+  </div>
+  <div class="container">
+      <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+        
+          <div id="giphyView"></div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <form id="giphy-form" role="form">  
+              
+    <label for="shows-input">Search for your shows:</label>
+    <input type="text" id="shows-input">
+  </div>
+
+<input id="addGiphy" type="submit" value="Add your show" class="btn btn-primary">
+</form>    
+</div>
+    </div>
+     
+     
+
+<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script type = "text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

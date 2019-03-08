@@ -1,0 +1,33 @@
+body{
+	background: url("../images/milky-way-2695569_960_720.jpg");
+	background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(235, 239, 240);
+    
+}
+* {
+	box-sizing: border-box;
+}
+.jumbotron {
+    background: transparent;
+    text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: "times new roman", sans-serif;
+}   
+.btn {
+    /* adding spacing between each button*/
+    margin: 3px;
+    background-color: #59b5d1;
+    border-color: rgb(241, 226, 226);
+}
+.gifDiv{
+    /* making the images go in one line rather than block & adding spacing between the images*/
+    float: left;
+    margin: 3px;
+}
+
+label {
+    font-size: 18px;
+    
+}
